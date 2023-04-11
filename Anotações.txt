@@ -1,0 +1,21 @@
+1. Configurnado ambiente
+
+1.1- Introdução do Módulo
+
+React é uma biblioteca de criação de interface (mobile e web);
+
+React separa as duas coisas, apenas a parte visual, interface e interação com o usuário e temos o back end separado responsável pelos dados ,banco de dados, autenticação, regra de negócio, transações com segurança etc.
+
+A API conecta as duas pontas.
+
+React é uma single page aplication
+
+1.2- Criando a estrutuda do projeto
+
+Criação de package.json ( yarn init -y ) -> informações principais do projeto (nome, versões, instalações de outros projetos, dependencias de outros projetos e bibliotecas)
+
+yarn add react (criação do react) ->
+
+yarn add react-dom -> dom é a árvore de elementos da nossa aplicação, html convertido em uma sintaxe de objeto, permite que o react se comunique com a árvore do html
+
+
