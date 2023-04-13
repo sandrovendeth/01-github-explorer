@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react';
 import { RepositoryItem } from "./RepositoryItem";
+import fotoPerfil from "../img/fotoPerfil.jpeg";
+
+
 
 
 import '../styles/repositories.scss';
@@ -22,7 +25,8 @@ export function RepositoryList() {
 
     return (
         <section className="repository-list">
-            <h1>Lista de repositórios</h1>
+            <img id="fotoPerfil"src={fotoPerfil} alt="Foto Perfil" />
+            <h1>&#x1F4DA; Lista de Repositórios &#x1F4DA;</h1>
 
             <ul>
                 {repositories.map(repository => {
