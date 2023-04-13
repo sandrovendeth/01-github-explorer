@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { RepositoryItem } from "./RepositoryItem";
-import fotoPerfil from "../img/fotoPerfil.jpeg";
+import fotoPerfil from "../img/fotoPerfil2.jpg";
+
+
 
 
 
